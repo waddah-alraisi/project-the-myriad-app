@@ -1,0 +1,19 @@
+{
+  "name": "project-the-myriad-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The Myriad — the residence team's web app, an OnCloud Connected App (static SPA)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "devDependencies": {
+    "vite": "8.3.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
